@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True #  increases the size of the training dataset by applying various transformations to the original images and ultimately help the model learn more robust features and patterns.
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False # removes fully connected layers (last part of the model)
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imagenet # we want the pre-trained model weights
+LEARNING_RATE: 0.01
