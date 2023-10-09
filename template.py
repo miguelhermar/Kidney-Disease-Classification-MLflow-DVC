@@ -12,7 +12,7 @@ list_of_files = [
     ".github/workflows/.gitkeep", # for CI/CD deployment later on, .gitkeep because to commit code github won't take any kind of empty folders 
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/utils/__init__.py", # here it's hosted the PythonBox exception package
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",

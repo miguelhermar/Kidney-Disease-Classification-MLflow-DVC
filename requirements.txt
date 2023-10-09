@@ -16,4 +16,4 @@ scipy
 Flask
 Flask-Cors
 gdown # to read data from Google Drive
--e . # this is to install the CnnClassifier folder as local package. It looks for the setup.py file. 
+-e . # this is to install the CnnClassifier folder as a local package. It looks for the setup.py file. 
