@@ -1,0 +1,19 @@
+tensorflow==2.13.0
+pandas 
+dvc
+mlflow==2.2.2
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML # to read yaml files and load them into the code
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+gdown # to read data from Google Drive
+-e . # this is to install the CnnClassifier folder as local package. It looks for the setup.py file. 
