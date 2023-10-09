@@ -5,14 +5,14 @@
 
 1. Update config.yaml
 2. Update secrets.yaml [Optional]
-3. Update params.yaml
+3. Update params.yaml (paramaters used throughout the project: for model training)
 4. Update the entity
 5. Update the configuration manager in src config
-6. Update the components
+6. Update the components (data ingestion, validation, transformation, etc.)
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
-10. app.py
+10. Update the app.py (UI related functionality)
 
 # How to run?
 ### STEPS:
