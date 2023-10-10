@@ -87,7 +87,7 @@ export MLFLOW_TRACKING_PASSWORD=838058e049ff14335ccc9b935c026e41b1001293
 
 1. dvc init (initializes dvc directory and .dvcignore file)
 2. dvc repro (generates dvc.lock file which tracks everything)
-3. dvc dag
+3. dvc dag (displays a graph of the relationships between the steps in the pipeline)
 
 
 ## About MLflow & DVC
