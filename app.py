@@ -45,7 +45,7 @@ def predictRoute():
 
 if __name__ == "__main__":
     clApp = ClientApp()
-
+    # Let's see how it goes
     app.run(host='0.0.0.0', port=8080) #for AWS
 
 
